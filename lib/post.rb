@@ -9,7 +9,7 @@ class Post
     @@all
   end
   def author_name 
-    Post.author if author 
+    author.name 
   end
     
     
