@@ -6,6 +6,7 @@ class Post
     @@all << self 
   end
   def self.all 
-    Post.
+    Post.all.select{|post| post.author == self}
+  end
     
     
